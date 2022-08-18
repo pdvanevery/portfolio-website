@@ -10,7 +10,7 @@ function HomeImg() {
             <img className="landing-img" src={LandingImg} alt="LandingImg" />
         </div>
         <div className="content">
-            <p>Welcome, I'm Parker</p>
+            <p>Parker Van Every</p>
             <h1>Full Stack Developer</h1>
             <div>
                 <Link to="/project" className="btn">Projects</Link>
