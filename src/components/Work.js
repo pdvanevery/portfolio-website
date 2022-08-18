@@ -2,8 +2,6 @@ import "./WorkCardStyles.css"
 import WorkCard from "./WorkCard"
 import ProjectCardData from "./WorkCardData"
 import React from 'react'
-import restrant from "../assets/rest-rant.png"
-import { NavLink } from "react-router-dom"
 
 const Work = () => {
   return (
