@@ -20,7 +20,11 @@
 }
 
 .about .right {
-    max-width: 500px;
+    max-width: 600px;
+}
+
+img {
+    width: 20rem;
 }
 
 .right .img-container {
@@ -29,6 +33,20 @@
     position: relative;
     align-items: center;
     text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    img {
+        display: none;
+    }
+
+    .about .left {
+        text-align: center;
+        margin: auto;
+        padding: 1rem;
+        max-width: 450px;
+    }
+    
 }
 
 
