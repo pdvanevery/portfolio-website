@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <BackgroundImg heading="ABOUT" text="An aspiring Developer" />
+      <BackgroundImg heading="About" text="An aspiring Developer" />
       <AboutContent />
       <Footer />
     </div>

@@ -11,7 +11,7 @@ const Footer = () => {
                     <FaHome size={20} style={{ color:"#fff", marginRight: "2rem" }}/>
                     <div>
                         <p>San Jose, CA</p>
-                        <p>Open to Remote Opportunities</p>
+                        <p>Open to New Opportunities</p>
                     </div>
                 </div>
                 <div className="phone">
@@ -31,8 +31,12 @@ const Footer = () => {
                 <h4>Welcome to my portfolio website!</h4>
                 <p>My name is Parker and I am an aspiring Full Stack Developer. I developed a love for coding because it allows me to tackle new challenges daily as well as keep my mind sharp through continuous learning.</p>
                 <div className="socials">
-                <FaLinkedin size={30} style={{ color:"#fff", marginRight: "1rem" }}/>
-                <FaGithub size={30} style={{ color:"#fff", marginRight: "1rem" }}/>
+                <a href="https://www.linkedin.com/in/parker-van-every/">
+                    <FaLinkedin size={30} style={{ color:"#fff", marginRight: "1rem" }}/>
+                </a>
+                <a href="https://github.com/pdvanevery">
+                    <FaGithub size={30} style={{ color:"#fff", marginRight: "1rem" }}/>
+                </a>
                 </div>
             </div>
         </div>
@@ -41,3 +45,4 @@ const Footer = () => {
 }
 
 export default Footer
+

@@ -9,7 +9,6 @@ const ProjectCardData = [
         view: "https://pdvanevery.github.io/Midterm-Project-1/",
         source: "https://github.com/pdvanevery/Midterm-Project-1"
     },
-
     {
         imgsrc: restrant,
         title: "Rest-Rant Review App",
