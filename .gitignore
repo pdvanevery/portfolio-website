@@ -22,6 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-SERVICE_KEY=service_ja76yzv
-TEMPLATE_KEY=template_64b6kgg
-PUBLIC_KEY=ytfiAM8e8PjSbM0bu
+SERVICE_KEY= "service_ja76yzv"
+TEMPLATE_KEY= "template_64b6kgg"
+PUBLIC_KEY= "ytfiAM8e8PjSbM0bu"
