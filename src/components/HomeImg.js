@@ -1,6 +1,6 @@
 import "./HomeImgStyles.css"
 import React from 'react'
-import LandingImg from "../assets/home-img.jpeg"
+import LandingImg from "../assets/homeimg2.jpeg"
 import { Link } from "react-router-dom"
 
 function HomeImg() {
@@ -10,8 +10,9 @@ function HomeImg() {
             <img className="landing-img" src={LandingImg} alt="LandingImg" />
         </div>
         <div className="content">
-            <p>Parker Van Every</p>
-            <h1>Full Stack Developer</h1>
+            <p>Hi, my name is</p>
+            <h1 className="my-name">Parker Van Every.</h1>
+            <h1> I'm a Full Stack Developer.</h1>
             <div>
                 <Link to="/project" className="btn">Projects</Link>
                 <Link to="/contact" className="btn btn-light">Contact</Link>

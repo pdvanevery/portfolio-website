@@ -13,6 +13,10 @@
 
 }
 
+.my-name {
+    color: rgba(8, 197, 230);
+}
+
 .bckground::after {
     content: "";
     width: 100%;
@@ -20,8 +24,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #000;
-    opacity: 0.4;
 }
 
 .home-img {
@@ -34,18 +36,18 @@
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    text-align: center;
+    text-align: left;
 }
 
 .home-img .content h1 {
-    font-size: 4rem;
-    padding: 0.6rem 0 1.5rem;
+    font-size: 3rem;
+    padding: 0.1rem 0 1.5rem;
 }
 
 .home-img .content p {
     font-size: 1.4rem;
     font-weight: 200;
-    text-transform: uppercase;
+    
 }
 
 .content .btn {
@@ -55,7 +57,7 @@
 @media screen and (max-width: 640px)  {
     
     .home-img .content h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     .home-img .content p {

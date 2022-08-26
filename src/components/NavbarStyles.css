@@ -27,6 +27,10 @@
     font-weight: 500;
 }
 
+.nav-menu li a:hover {
+    color: rgba(8, 197, 230);
+}
+
 .hamburger {
     display: none;
 }
