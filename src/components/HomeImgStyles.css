@@ -53,6 +53,7 @@
 }
 
 @media screen and (max-width: 640px)  {
+    
     .home-img .content h1 {
         font-size: 3rem;
     }
