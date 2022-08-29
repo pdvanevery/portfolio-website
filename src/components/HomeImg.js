@@ -11,8 +11,10 @@ function HomeImg() {
         </div>
         <div className="content">
             <p>Hi, my name is</p>
+            <br></br>
             <h1 className="my-name">Parker Van Every.</h1>
             <h1> I'm a Full Stack Developer.</h1>
+            <br></br>
             <div>
                 <Link to="/project" className="btn">Projects</Link>
                 <Link to="/contact" className="btn btn-light">Contact</Link>

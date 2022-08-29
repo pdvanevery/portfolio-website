@@ -1,5 +1,5 @@
-import restrant from "../assets/rest-rant.png"
-import fighting from "../assets/fighting.png"
+import restrant from "../assets/restrant.png"
+import fighting from "../assets/browsergame.png"
 
 const ProjectCardData = [
     {
