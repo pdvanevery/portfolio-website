@@ -1,6 +1,7 @@
 import restrant from "../assets/restrant.png"
 import fighting from "../assets/browsergame.png"
 import pokedex from "../assets/pokedex.png"
+import heroes from "../assets/heroes.png"
 
 const ProjectCardData = [
     {
@@ -22,6 +23,11 @@ const ProjectCardData = [
         title: "Pokedex API",
         view: "https://floating-oasis-25077.herokuapp.com/",
         source: "https://github.com/pdvanevery/pokedexAPI"
+    }, 
+    {
+        imgsrc: heroes, 
+        title: "Angular Heroes Tour (No View)",
+        source: "https://github.com/pdvanevery/angular-tour-of-heroes"
     } 
 ]
 
