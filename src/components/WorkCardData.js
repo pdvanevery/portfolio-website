@@ -21,7 +21,7 @@ const ProjectCardData = [
     {
         imgsrc: pokedex,
         title: "Pokedex API",
-        view: "https://floating-oasis-25077.herokuapp.com/",
+        view: "https://pokedex-api-28802.firebaseapp.com/",
         source: "https://github.com/pdvanevery/pokedexAPI"
     }, 
     {
